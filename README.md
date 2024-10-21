@@ -21,13 +21,12 @@ The projection of 3D joints onto 2D helps simulate how a camera captures a perso
 
 ## Installation
 
-1. Install [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).
-2. Clone this repository and navigate to the project directory:
+1. Clone this repository and navigate to the project directory:
     ```bash
     git clone https://github.com/your-repo-url/smpl-to-2dkeypoints.git
     cd smpl-to-2dkeypoints
     ```
-3. Activate the environment using the provided `environment.yml` file:
+2. Activate the environment using the provided `environment.yml` file (if you have [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html).):
     ```bash
     conda env create -f environment.yml
     conda activate smpl_env
