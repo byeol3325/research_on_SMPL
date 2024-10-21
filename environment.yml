@@ -1,0 +1,13 @@
+name: smpl_to_2Dkeypoints
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - torch
+      - opencv-python
+      - numpy
+      - matplotlib
+      - ffmpeg
+      - mmcv-full==1.6.0
