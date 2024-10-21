@@ -42,7 +42,6 @@ The projection of 3D joints onto 2D helps simulate how a camera captures a perso
 ## Usage
 
 ### Download Dataset
-# 3D human motion and pose datasets
 
 A collection of 3D human motion and pose datasets. It includes 3D body keypoints, 3D facial mesh (FLAME), 3D body mesh (SMPL), with hand (SMPL-H), and facial expression (SMPL-X) dataset.
 
