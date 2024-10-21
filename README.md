@@ -56,3 +56,16 @@ Once the environment is set up and the pretrained models are downloaded, you can
 1. Load the SMPL model and pass the necessary parameters (like betas, pose, etc.):
    ```python
    smpl_model = SMPL(model_path='path_to_smpl_model.pkl', gender='neutral', batch_size=1)
+
+
+### Explanation of Code
+smpl_model: Loads the SMPL model and provides the structure for generating 3D human body meshes.
+project_3d_to_2d: Projects the 3D vertices and joints onto a 2D plane using simple pinhole camera projection.
+plot_keypoints_2d: Visualizes the projected 2D keypoints on a plane.
+The projection helps simulate a camera's view of the person, showing how 3D body keypoints are mapped to 2D image space.
+
+
+### References
+SMPL Model
+SMPL-X Model
+MMHuman3D for SMPL implementation and keypoint mapping.
