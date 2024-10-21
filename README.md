@@ -27,11 +27,18 @@ The projection of 3D joints onto 2D helps simulate how a camera captures a perso
     git clone https://github.com/your-repo-url/smpl-to-2dkeypoints.git
     cd smpl-to-2dkeypoints
     ```
-3. Create and activate the environment using the provided `environment.yml` file:
+3. Activate the environment using the provided `environment.yml` file:
     ```bash
     conda env create -f environment.yml
     conda activate smpl_env
+    pip install mmhuman3d --no-deps
     ```
+
+    or use requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   pip install mmhuman3d --no-deps
+   ```
 
 ## Usage
 
